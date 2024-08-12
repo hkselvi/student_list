@@ -80,7 +80,7 @@ menu = """
 4- Show the list of students
 5- Exit the program
 """
-
+print(menu)
 while True:
     choice = int(input("Choose one from the choices:"))
     if choice == 1:
